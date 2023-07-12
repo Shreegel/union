@@ -47,8 +47,8 @@ int main()
     sort(C,k);
     for (i=0;i<k;i++)
     {
-        if (C[i!=temp])
-        printf("%d",C[i]);
+        if (C[i]!=temp)
+        printf("%d ",C[i]);
         temp=C[i];
     }
     return 0;
